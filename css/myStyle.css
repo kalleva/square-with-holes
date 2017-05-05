@@ -1,0 +1,33 @@
+.grid {
+  width: 720px;
+  height: 720px;
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  clear: both;
+  height: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+.cell {
+  height:12px;
+  width: 12px;
+  display: inline-block;
+  background-color: white;
+}
+
+.hole {
+  height: 8px;
+  width: 8px;
+  margin: 1px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.full {
+  background-color: black;
+}
